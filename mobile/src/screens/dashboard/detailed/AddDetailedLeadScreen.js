@@ -75,10 +75,21 @@ export default function AddDetailedLeadScreen() {
             // insurance forms 
 
 
+            // "Cattle Insurance": "CattleInsuranceForm",
+            // "Travel Insurance": "TravelInsuranceForm",
+            // "Life Insurance": "LifeInsuranceForm",
+            // "Health Insurance": "HealthInsuranceForm"
+          
             "Cattle Insurance": "CattleInsuranceForm",
             "Travel Insurance": "TravelInsuranceForm",
             "Life Insurance": "LifeInsuranceForm",
-            "Health Insurance": "HealthInsuranceForm"
+            "Health Insurance": "HealthInsuranceForm",  
+
+
+            "Corporate Insurance": "CorporateInsuranceForm",
+            "Loan Protector": "LoanProtectorForm",
+            // "Fire Insurance": "FireInsuranceForm",
+            // "Marine Insurance": "MarineInsuranceForm"
         };
         const route = routes[title];
         if (route) {

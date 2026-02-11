@@ -36,6 +36,8 @@ import CattleInsuranceFormScreen from '../screens/dashboard/detailed/forms/insur
 import TravelInsuranceFormScreen from '../screens/dashboard/detailed/forms/insurance/TravelInsuranceFormScreen';
 import LifeInsuranceFormScreen from '../screens/dashboard/detailed/forms/insurance/LifeInsuranceFormScreen';
 import HealthInsuranceFormScreen from '../screens/dashboard/detailed/forms/insurance/HealthInsuranceFormScreen';
+import LoanProtectorFormScreen from '../screens/dashboard/detailed/forms/insurance/LoanProtectorFormScreen.js';
+import CorporateInsuranceFormScreen from '../screens/dashboard/detailed/forms/insurance/CorporateInsuranceFormScreen.js';
 
 const Drawer = createDrawerNavigator();
 
@@ -130,6 +132,10 @@ const DrawerNavigator = () => {
             <Drawer.Screen name="TravelInsuranceForm" component={TravelInsuranceFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
             <Drawer.Screen name="LifeInsuranceForm" component={LifeInsuranceFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
             <Drawer.Screen name="HealthInsuranceForm" component={HealthInsuranceFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
+
+            <Drawer.Screen name="LoanProtectorForm" component={LoanProtectorFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
+
+            <Drawer.Screen name="CorporateInsuranceForm" component={CorporateInsuranceFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
 
         </Drawer.Navigator>
     );

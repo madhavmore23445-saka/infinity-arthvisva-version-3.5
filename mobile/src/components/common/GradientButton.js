@@ -44,7 +44,7 @@ const GradientButton = ({
 
 const styles = StyleSheet.create({
     container: {
-        borderRadius: 12,
+        borderRadius: 16,
         overflow: 'hidden',
         width: '100%',
     },

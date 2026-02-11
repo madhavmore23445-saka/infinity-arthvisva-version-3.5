@@ -68,7 +68,7 @@ const CustomDrawerContent = (props) => {
                             {user?.name || user?.adv_id || 'Welcome User'}
                         </Text>
                         <View style={styles.roleContainer}>
-                            <Text style={styles.userRole}>{user?.role || 'Advisor'}</Text>
+                            <Text style={styles.userRole}>{user?.adv_id || 'Advisor'}</Text>
                             <View style={styles.verifiedBadge}>
                                 <Ionicons name="checkmark-circle" size={12} color={theme.colors.success} />
                             </View>
