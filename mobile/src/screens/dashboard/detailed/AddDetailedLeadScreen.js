@@ -90,6 +90,17 @@ export default function AddDetailedLeadScreen() {
             "Loan Protector": "LoanProtectorForm",
             // "Fire Insurance": "FireInsuranceForm",
             // "Marine Insurance": "MarineInsuranceForm"
+
+            // investment
+
+             "Wealth Management": "WealthManagementForm",
+             "Bonds": "BondsForm",
+             "Fixed Deposit": "FixedDepositForm"
+
+
+
+
+
         };
         const route = routes[title];
         if (route) {

@@ -38,6 +38,12 @@ import LifeInsuranceFormScreen from '../screens/dashboard/detailed/forms/insuran
 import HealthInsuranceFormScreen from '../screens/dashboard/detailed/forms/insurance/HealthInsuranceFormScreen';
 import LoanProtectorFormScreen from '../screens/dashboard/detailed/forms/insurance/LoanProtectorFormScreen.js';
 import CorporateInsuranceFormScreen from '../screens/dashboard/detailed/forms/insurance/CorporateInsuranceFormScreen.js';
+import MarineInsuranceFormScreen from '../screens/dashboard/detailed/forms/insurance/MarineInsuranceFormScreen.js';
+import NotificationScreen from '../screens/support/notifications.js';
+import WealthManagementFormScreen from '../screens/dashboard/detailed/forms/insurance/WealthManagementFormScreen.js';
+import BondsFormScreen from '../screens/dashboard/detailed/forms/insurance/BondsFormScreen.js';
+import FixedDepositFormScreen from '../screens/dashboard/detailed/forms/insurance/fixedDepositFormScreen.js';
+// import FixedDepositFormScreen from '../screens/dashboard/detailed/forms/insurance/fixedDepositFormScreen.js';
 
 const Drawer = createDrawerNavigator();
 
@@ -79,6 +85,12 @@ const DrawerNavigator = () => {
             <Drawer.Screen
                 name="Profile"
                 component={ProfileScreen}
+                options={{ title: 'My Profile' }}
+            />
+
+            <Drawer.Screen
+                name="Notifications"
+                component={NotificationScreen}
                 options={{ title: 'My Profile' }}
             />
 
@@ -136,6 +148,20 @@ const DrawerNavigator = () => {
             <Drawer.Screen name="LoanProtectorForm" component={LoanProtectorFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
 
             <Drawer.Screen name="CorporateInsuranceForm" component={CorporateInsuranceFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
+
+            <Drawer.Screen name="MarineInsuranceForm" component={MarineInsuranceFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
+
+             <Drawer.Screen name="WealthManagementForm" component={WealthManagementFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
+
+             <Drawer.Screen name="BondsForm" component={BondsFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} />
+
+             {/* <Drawer.Screen name="BondsForm" component={BondsFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} /> */}
+{/* 
+              <Drawer.Screen name="FixedDepositForm" component={FixedDepositFormScreen} options={{ headerShown: false, drawerItemStyle: { display: 'none' } }} /> */}
+
+
+
+
 
         </Drawer.Navigator>
     );
