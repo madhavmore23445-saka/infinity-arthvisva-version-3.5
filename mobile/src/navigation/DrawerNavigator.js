@@ -42,8 +42,8 @@ import MarineInsuranceFormScreen from '../screens/dashboard/detailed/forms/insur
 import NotificationScreen from '../screens/support/notifications.js';
 import WealthManagementFormScreen from '../screens/dashboard/detailed/forms/insurance/WealthManagementFormScreen.js';
 import BondsFormScreen from '../screens/dashboard/detailed/forms/insurance/BondsFormScreen.js';
-import FixedDepositFormScreen from '../screens/dashboard/detailed/forms/insurance/fixedDepositFormScreen.js';
 // import FixedDepositFormScreen from '../screens/dashboard/detailed/forms/insurance/fixedDepositFormScreen.js';
+// // import FixedDepositFormScreen from '../screens/dashboard/detailed/forms/insurance/fixedDepositFormScreen.js';
 
 const Drawer = createDrawerNavigator();
 

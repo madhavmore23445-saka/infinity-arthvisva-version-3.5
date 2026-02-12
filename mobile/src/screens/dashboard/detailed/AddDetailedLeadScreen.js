@@ -95,7 +95,7 @@ export default function AddDetailedLeadScreen() {
 
              "Wealth Management": "WealthManagementForm",
              "Bonds": "BondsForm",
-             "Fixed Deposit": "FixedDepositForm"
+            //  "Fixed Deposit": "FixedDepositForm"
 
 
 
